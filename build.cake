@@ -127,7 +127,6 @@ Task("Publish-GitHub")
 });
 
 Task("Publish-NuGet")
-    .WithCriteria(ctx => BuildSystem.IsRunningOnGitHubActions, "Not running on GitHub Actions")
     .IsDependentOn("Package")
     .Does(context => 
 {
