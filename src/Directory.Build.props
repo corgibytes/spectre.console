@@ -18,19 +18,18 @@
     <Copyright>Patrik Svensson, Phil Scott, Nils Andresen</Copyright>
     <Authors>Patrik Svensson, Phil Scott, Nils Andresen</Authors>
     <RepositoryType>git</RepositoryType>
-    <RepositoryUrl>https://github.com/spectreconsole/spectre.console</RepositoryUrl>
+    <RepositoryUrl>https://github.com/corgibytes/spectre.console/tree/corgibytes-fork</RepositoryUrl>
     <PackageIcon>small-logo.png</PackageIcon>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
-    <PackageProjectUrl>https://github.com/spectreconsole/spectre.console</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/corgibytes/spectre.console/tree/corgibytes-fork</PackageProjectUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <PackageReleaseNotes>https://github.com/spectreconsole/spectre.console/releases</PackageReleaseNotes>
   </PropertyGroup>
 
   <PropertyGroup Label="Source Link">
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
     <EmbedUntrackedSources>true</EmbedUntrackedSources>
   </PropertyGroup>
-  
+
   <ItemGroup Label="Package References">
     <PackageReference Include="MinVer" PrivateAssets="All" Version="4.2.0" />
     <PackageReference Include="Microsoft.SourceLink.GitHub" PrivateAssets="All" Version="1.1.1" />
