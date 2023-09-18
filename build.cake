@@ -130,7 +130,7 @@ Task("Publish-NuGet")
     .IsDependentOn("Package")
     .Does(context => 
 {
-    var apiKey = Argument<string>("nuget-key", null);
+    var apiKey = Argument<string>("nuget-key", EnvironmentVariable<string>("NUGET_API_KEY", null));
     if(string.IsNullOrWhiteSpace(apiKey)) {
         throw new CakeException("No NuGet API key was provided.");
     }
